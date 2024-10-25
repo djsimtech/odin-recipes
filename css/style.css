@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+body ul li {
+  display: inline-block;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  font-size: 22px;
+  background-color: lightcoral;
+  width: auto;
+  line-height: 1.6;
+  color: white;
+  text-align: center;
+  /* border: 1px dashed black; */
+}
+
+body {
+  text-align: center;
+}
+
+div.recipe-list {
+  text-align: center;
+}
+
+.banana-bread-card {
+  flex: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(194, 227, 255, 1) 13%,
+    rgba(180, 118, 254, 1) 100%
+  );
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chocolate-chip-cookies-card {
+  flex: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(194, 227, 255, 1) 13%,
+    rgba(180, 118, 254, 1) 100%
+  );
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fruit-salad-card {
+  flex: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(194, 227, 255, 1) 13%,
+    rgba(180, 118, 254, 1) 100%
+  );
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
